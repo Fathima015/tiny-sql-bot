@@ -1,0 +1,26 @@
+[
+  {
+    "q": "show orders of Rahul",
+    "sql": "SELECT o.* FROM Orders o JOIN Users u ON o.user_id = u.id WHERE u.name = 'Rahul';"
+  },
+  {
+    "q": "show me all the orders by Alice",
+    "sql": "SELECT o.* FROM Orders o\nJOIN Users u ON o.user_id = u.id\nWHERE u.name = 'Alice';"
+  },
+  {
+    "q": "show me all orders by Rahul",
+    "sql": "SELECT o.* FROM Orders o\nJOIN Users u ON o.user_id = u.id\nWHERE u.name = 'Rahul';"
+  },
+  {
+    "q": "show me all orders by Alice",
+    "sql": "SELECT o.* FROM Orders o\nJOIN Users u ON o.user_id = u.id\nWHERE u.name = 'Alice';"
+  },
+  {
+    "q": "show me all orders by Rahul",
+    "sql": "SELECT o.* FROM Orders o\nJOIN Users u ON o.user_id = u.id\nWHERE u.name = 'Rahul';"
+  },
+  {
+    "q": "show me all orders by Rahul",
+    "sql": "SELECT o.* FROM Orders o\nJOIN Users u ON o.user_id = u.id\nWHERE u.name = 'Rahul';"
+  }
+]

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Databases
+*.db
+
+# VSCode settings
+.vscode/
+
+# Model cache
+*.bin
+*.safetensors
+*.pt
+hf_cache/
